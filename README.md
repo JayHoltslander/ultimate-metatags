@@ -1,8 +1,6 @@
-# Optimal MetaTags with OpenGraph Data 
+# Ultimate MetaTags (with OpenGraph Data)
 
-[![license][license-image]][license-url]
-
-A snippet for your page's ``<head>`` that includes all the meta tags you'll need for OPTIMAL sharing and SEO. Extensive work has been put into ensuring your images are optimized for the most important social media platforms are supported.
+A large snippet for your page's ``<head>`` that includes all the meta tags you'll need for OPTIMAL sharing and SEO. Extensive work has been put into ensuring you have the optimal images for the most important social media platforms.
 
 ## Testing:
 * Twitter: https://dev.twitter.com/docs/cards/validation/validator
