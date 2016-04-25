@@ -4,6 +4,8 @@
 
 A large snippet for your page's ``<head>`` that includes all the meta tags you'll need for OPTIMAL sharing and SEO. Extensive work has been put into ensuring you have the optimal images for the most important social media platforms.
 
+[View the file](https://github.com/JayHoltslander/ultimate-metatags/blob/master/index.html)
+
 ## Testing:
 * Twitter: https://dev.twitter.com/docs/cards/validation/validator
 * Facebook: https://developers.facebook.com/tools/debug
