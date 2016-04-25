@@ -113,11 +113,11 @@ project:
 
    ```bash
    # Clone your fork of the repo into the current directory
-   git clone https://github.com/<your-username>/normalize.css
+   git clone https://github.com/<your-username>/ultimate-metatags
    # Navigate to the newly cloned directory
-   cd normalize.css
+   cd ultimate-metatags
    # Assign the original repo to a remote called "upstream"
-   git remote add upstream https://github.com/necolas/normalize.css
+   git remote add upstream https://github.com/JayHoltslander/ultimate-metatags
    ```
 
 2. If you cloned a while ago, get the latest changes from upstream:
@@ -139,15 +139,7 @@ project:
    or your code is unlikely be merged into the main project. Use Git's
    [interactive rebase](https://help.github.com/articles/interactive-rebase)
    feature to tidy up your commits before making them public.
-
-   Be sure to test the `normalize.css` file for style conformance.
-
-   ```bash
-   npm test
-   ```
-
-   Be sure to add a test to the `test.html` file if appropriate, and test
-   your change in all supported browsers.
+   
 
 5. Locally rebase the upstream development branch into your topic branch:
 
