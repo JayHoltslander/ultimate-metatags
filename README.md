@@ -1,5 +1,7 @@
 # Ultimate MetaTags (with OpenGraph Data)
 
+![](animated.gif)
+
 A large snippet for your page's ``<head>`` that includes all the meta tags you'll need for OPTIMAL sharing and SEO. Extensive work has been put into ensuring you have the optimal images for the most important social media platforms.
 
 ## Testing:
