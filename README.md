@@ -4,6 +4,14 @@
 
 A large snippet for your page's ``<head>`` that includes all the meta tags you'll need for OPTIMAL sharing and SEO. Extensive work has been put into ensuring you have the optimal images for the most important social media platforms.
 
+### Websites and Social media sites covered by this file.
+* Generic
+* Google / Google+
+* Facebook
+* Twitter
+* Linkedin
+* Pinterest
+
 [View the file](https://github.com/JayHoltslander/ultimate-metatags/blob/master/index.html)
 
 ## Testing:
@@ -26,3 +34,6 @@ A large snippet for your page's ``<head>`` that includes all the meta tags you'l
 
 ## Further resources
 * http://ogp.me
+
+### Keywords
+meta, metatags, Opengraph, Structured Data, itemscope, itemtype, meta, property, og, itemprop, favicon, favicons, head, name, property, author, publisher, robots, title, site description, keywords, SEO, image, height, width
