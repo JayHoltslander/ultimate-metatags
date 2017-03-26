@@ -33,14 +33,16 @@ TESTING:
 
 <meta http-equiv="content-type" content="text/html;UTF-8">
 <meta http-equiv="content-language" content="en">
+<meta http-equiv="content-security-policy" content="upgrade-insecure-requests"> <!-- Upgrade insecure requests. See: https://developers.google.com/web/fundamentals/security/prevent-mixed-content/fixing-mixed-content -->
 <meta name="description" content="____"> <!-- Website description --> 
 <meta name="author" content="____"> <!-- Name of the content creator / author. -->
 <link rel=”author” href=”https://plus.google.com/____”/> <!-- Author's Google+ page. -->
 <link rel=”publisher” href=”https://plus.google.com/____”/> <!-- Content owner's Google+ page. -->
 <meta name="copyright" content="____"> <!-- Copyright holder -->
+
 <meta name="robots" content="index, follow">
-<meta http-equiv="cache-control" content="cache"> <!-- See: http://www.metatags.info/meta_http_equiv_cache_control -->
-<meta http-equiv="revisit-after" content="30 days"> <!-- See: http://www.metatags.org/meta_name_revisit_after -->
+<meta http-equiv="cache-control" content="cache"> <!-- See: http://www.metatags.org/meta_http_equiv_cache_control -->
+<meta http-equiv="revisit-after" content="1 day"> <!-- See: http://www.metatags.org/meta_name_revisit_after -->
 
 <meta property="og:title" content="____" /> <!-- Page title -->
 <meta property="og:site_name" data-page-subject="true" content="____" /> <!-- Site name -->
@@ -78,68 +80,68 @@ TESTING:
 
 <!-- ================ Safe generic defaults ================ -->
 <!-- Use one of these at the very least. -->
-<meta property="og:image" content="http://____.com/image-1024x512.jpg" /> <!-- Generic safe dimension (Landscape). -->
+<meta property="og:image" content="https://____.com/image-1024x512.jpg" /> <!-- Generic safe dimension (Landscape). -->
 <meta property="og:image:width" content="1024" />
 <meta property="og:image:height" content="512" />
 
-<meta property="og:image" content="http://____.com/image-800x1200.jpg" /> <!-- Generic safe dimension (Portrait). -->
+<meta property="og:image" content="https://____.com/image-800x1200.jpg" /> <!-- Generic safe dimension (Portrait). -->
 <meta property="og:image:width" content="800" />
 <meta property="og:image:height" content="1200" />
 
 
 <!-- ================ Facebook ================ -->
 <!-- Facebook will give the user the choice to choose one of the og:image thumbnails. -->
-<meta property="og:image" content="http://____.com/image-200x200.jpg" /> <!-- 200x200 Image for Facebook. -->
+<meta property="og:image" content="https://____.com/image-200x200.jpg" /> <!-- 200x200 Image for Facebook. -->
 <meta property="og:image:width" content="200" />
 <meta property="og:image:height" content="200" />
 
-<meta property="og:image" content="http://____.com/image-470x470.jpg" /> <!-- 470x470 Square Image for Facebook. -->
+<meta property="og:image" content="https://____.com/image-470x470.jpg" /> <!-- 470x470 Square Image for Facebook. -->
 <meta property="og:image:width" content="470" /> <!-- Optimal timeline size -->
 <meta property="og:image:height" content="470" /> <!-- Optimal timeline size -->
 
-<meta property="og:image" content="http://____.com/image-1200x630.jpg" /><!-- Recommended image for Facebook. (Max. 8MB)-->
+<meta property="og:image" content="https://____.com/image-1200x630.jpg" /><!-- Recommended image for Facebook. (Max. 8MB)-->
 <meta property="og:image:width" content="1200" /> <!-- Scales down to 470 -->
 <meta property="og:image:height" content="630" /> <!-- Scales down to 246 -->
 
-<meta property="og:image" content="http://____.com/image-1500x1500.jpg" /><!-- Largest image for Facebook. (Max. 5MB)-->
+<meta property="og:image" content="https://____.com/image-1500x1500.jpg" /><!-- Largest image for Facebook. (Max. 5MB)-->
 <meta property="og:image:width" content="1500" /> <!-- Scales down to 470 -->
 <meta property="og:image:height" content="1500" /> <!-- Scales down to 470 -->
 
 
 <!--  ================ Twitter ================ -->
-<meta name="twitter:image" content="http://____.com/image-120x120.jpg" /> <!-- 120x120px Minimum size image for Twitter Summary card type -->
-<meta name="twitter:image" content="http://____.com/image-280x150.jpg"> <!-- 280x150px Minimum size image for Twitter Summary with large image card type -->
-<meta name="twitter:image" content="http://____.com/image-506x506.jpg"> <!-- Optimal size image for Twitter Summary with large image card type -->
+<meta name="twitter:image" content="https://____.com/image-120x120.jpg" /> <!-- 120x120px Minimum size image for Twitter Summary card type -->
+<meta name="twitter:image" content="https://____.com/image-280x150.jpg"> <!-- 280x150px Minimum size image for Twitter Summary with large image card type -->
+<meta name="twitter:image" content="https://____.com/image-506x506.jpg"> <!-- Optimal size image for Twitter Summary with large image card type -->
 
 
 <!--  ================ Linkedin ================ -->
-<meta property="og:image" content="http://____.com/image-180x110.jpg" /> <!-- 180x110 Image for Linkedin - Do not exceed. -->
+<meta property="og:image" content="https://____.com/image-180x110.jpg" /> <!-- 180x110 Image for Linkedin - Do not exceed. -->
 <meta property="og:image:width" content="180" />
 <meta property="og:image:height" content="110" />
 
-<meta property="og:image" content="http://____.com/image-1440x880.jpg" /> <!-- 1440x880 HD Image for Linkedin - Untested support. -->
+<meta property="og:image" content="https://____.com/image-1440x880.jpg" /> <!-- 1440x880 HD Image for Linkedin - Untested support. -->
 <meta property="og:image:width" content="1440" />
 <meta property="og:image:height" content="880" />
 
-<meta property="og:image" content="http://____.com/image-442x248.jpg" /> <!-- 442x248 Image for Linkedin Showcase pages. -->
+<meta property="og:image" content="https://____.com/image-442x248.jpg" /> <!-- 442x248 Image for Linkedin Showcase pages. -->
 <meta property="og:image:width" content="442" />
 <meta property="og:image:height" content="248" />
 
 
 <!-- ================ Google+ ================ -->
-<meta itemprop="image" content="http://____.com/image-180x120.jpg"> <!-- 180x120 Image for Google+ in Schema.org markup --> 
+<meta itemprop="image" content="https://____.com/image-180x120.jpg"> <!-- 180x120 Image for Google+ in Schema.org markup --> 
 
-<meta property="og:image" content="http://____.com/image-150x150.jpg" /> <!-- 150x150 Minimum size. Appears to left of the update. -->
+<meta property="og:image" content="https://____.com/image-150x150.jpg" /> <!-- 150x150 Minimum size. Appears to left of the update. -->
 <meta property="og:image:width" content="150" /> <!-- Minimum width. -->
 <meta property="og:image:height" content="150" /> <!-- Minimum height. -->
 
-<meta property="og:image" content="http://____.com/image-426x426.jpg" /> <!-- 426x426 Optimum Image for Google+. -->
+<meta property="og:image" content="https://____.com/image-426x426.jpg" /> <!-- 426x426 Optimum Image for Google+. -->
 <meta property="og:image:width" content="426" /> <!-- Try to keep this width. -->
 <meta property="og:image:height" content="426" /> <!-- Can be any height. -->
 
 
 <!-- ================ Pinterest ================ -->
-<meta property="og:image" content="http://____.com/image-736x1128.jpg" /> <!-- Optimum Image for Pinterest. -->
+<meta property="og:image" content="https://____.com/image-736x1128.jpg" /> <!-- Optimum Image for Pinterest. -->
 <meta property="og:image:width" content="736" /> <!-- Try to keep this width. -->
 <meta property="og:image:height" content="1128" /> <!-- Optimal size but can be any height. Aspect ratio between 2:3 and 1:3.5 recommended. -->
 
