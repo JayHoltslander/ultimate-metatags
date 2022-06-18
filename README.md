@@ -37,3 +37,10 @@ A large snippet for your page's ``<head>`` that includes all the meta tags you'l
 
 ### Keywords
 meta, metatags, Opengraph, Structured Data, itemscope, itemtype, meta, property, og, itemprop, favicon, favicons, head, name, property, author, publisher, robots, title, site description, keywords, SEO, image, height, width
+
+____
+
+## KING SEO ( +ADD by : author : Madjeek - 18/06/2022 )
+
+![pexels-pixabay-260024](https://user-images.githubusercontent.com/83957788/174457969-63a36e19-d675-4ba0-b60f-d9d3e60e9204.jpg)
+
